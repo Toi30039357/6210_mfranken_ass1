@@ -25,6 +25,7 @@ function Navbar() {
           
         <Route exact path="/" component={Pg_select}/>
         <Route exact path="/." component={Pg_select}/>
+        <Route exact path="/6210_mfranken_ass1" component={Pg_select}/>
         <Route exact path="/pg_scp002" component={Pg_scp002}/>
         <Route exact path="/pg_scp003" component={Pg_scp003}/>
         <Route exact path="/pg_scp004" component={Pg_scp004}/>
