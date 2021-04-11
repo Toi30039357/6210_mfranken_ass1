@@ -1,0 +1,133 @@
+
+.layout__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  background-color: rgb(75,175,75);
+  max-height: 5vh;
+}
+
+.layout__logo {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: bolder;
+}
+
+
+.layout__menuitems li {
+  display: inline-block;
+  margin: 0px 27px 0px 27px;
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: bolder;  
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+.layout__menuitems li .sub-menu {
+  padding: 30px;
+  width: 227px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border-top: 4px solid #07a8ff;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 1px 8px 13px #c5c5c5;
+  z-index: 7;
+}
+.layout__menuitems li .sub-menu li {
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 17px;
+  display: block;
+}
+.layout__menuitems li:hover>.sub-menu {
+  pointer-events: visible;
+  opacity: 1;
+}
+.layout__header a{
+  color: whitesmoke;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+.layout__header a:hover{
+  color: black;
+}
+.layout__header .is-active{
+  background-color: rgb(75,175,75);
+  color: rgb(255,255,255);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+.layout__page{
+  width: 100%;
+  position: relative;
+  margin-top: 10%;
+}
+.layout__page h1{
+  text-align: center;
+  font-size: 60px;
+  color: #07a8ff;
+}
+
+
+@media (max-width: 780px) { 
+.layout__response__menubar {
+    display: table!important;
+    float: none;
+    background-color: rgb(75,175,75);
+    color:whitesmoke;
+    padding-right: 20px;
+    padding-top: 2px;
+    margin: 10px auto;
+}
+.layout__hidemenu {
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  padding: 17px;
+  border-bottom: 5px solid rgb(75,175,75);
+}
+.layout__visiblemenu {
+  display: block!important;
+  position: absolute;
+  left: 0;
+  z-index: 7;
+  background-color: rgba(5,5,5,0.8);
+
+}
+.layout__menuitems li {
+  display: block;
+  align-items: center;
+  margin: 0px 7px 0px 7px;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.layout__page h1{
+  font-size: 37px;
+}
+.layout__navBar  svg{
+  font-size: 27px;
+}
+.layout__header a:hover{
+  color: rgb(75,175,75);
+}
+
+}
