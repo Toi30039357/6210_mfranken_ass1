@@ -26,11 +26,11 @@ function Navbar() {
         <Route exact path="/" component={Pg_select}/>
         <Route exact path="/." component={Pg_select}/>
         <Route exact path="/6210_mfranken_ass1" component={Pg_select}/>
-        <Route exact path="/pg_scp002" component={Pg_scp002}/>
-        <Route exact path="/pg_scp003" component={Pg_scp003}/>
-        <Route exact path="/pg_scp004" component={Pg_scp004}/>
-        <Route exact path="/pg_scp005" component={Pg_scp005}/>
-        <Route exact path="/pg_scp006" component={Pg_scp006}/>
+        <Route exact path="/6210_mfranken_ass1/pg_scp002" component={Pg_scp002}/>
+        <Route exact path="/6210_mfranken_ass1/pg_scp003" component={Pg_scp003}/>
+        <Route exact path="/6210_mfranken_ass1/pg_scp004" component={Pg_scp004}/>
+        <Route exact path="/6210_mfranken_ass1/pg_scp005" component={Pg_scp005}/>
+        <Route exact path="/6210_mfranken_ass1/pg_scp006" component={Pg_scp006}/>
           
         </Switch>
       </div>
